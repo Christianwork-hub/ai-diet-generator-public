@@ -1,0 +1,89 @@
+# Proprietary License
+
+**AI Diet Generator v3.0**
+
+Copyright © 2026 Christian Grieco. All Rights Reserved.
+
+---
+
+## TERMS AND CONDITIONS
+
+### 1. Grant of License
+
+This software and associated documentation files (the "Software") are proprietary and confidential. The Software is licensed, not sold, to you by Christian Grieco ("Licensor") for use strictly in accordance with the terms of this License.
+
+### 2. Permitted Use
+
+You are granted a limited, non-exclusive, non-transferable, revocable license to:
+
+- **View and test** the Software through the provided Docker container
+- **Use** the Software for personal, non-commercial purposes only
+- **Access** the web interface at `http://localhost:5000`
+
+### 3. Restrictions
+
+You may NOT:
+
+- ❌ Access, view, modify, or reverse engineer the source code
+- ❌ Distribute, sublicense, or sell copies of the Software
+- ❌ Use the Software for commercial purposes without written permission
+- ❌ Remove or alter any proprietary notices or labels
+- ❌ Create derivative works based on the Software
+- ❌ Extract or copy the food database or algorithms
+- ❌ Deploy the Software on public servers or cloud platforms
+- ❌ Share Docker images or binaries with third parties
+
+### 4. Source Code
+
+The source code of this Software is proprietary and confidential. It is not included in the Docker distribution and is maintained in a private repository.
+
+### 5. Intellectual Property
+
+All rights, title, and interest in and to the Software, including but not limited to:
+
+- Algorithms and methodologies
+- Food database and nutritional data
+- Caloric density scoring system
+- User interface and design
+- Documentation and tutorials
+
+remain the exclusive property of the Licensor.
+
+### 6. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+### 7. Limitation of Liability
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### 8. Termination
+
+This License is effective until terminated. Your rights under this License will terminate automatically without notice if you fail to comply with any term(s) hereof.
+
+### 9. Commercial Licensing
+
+For commercial use, enterprise licensing, or custom development, please contact:
+
+**Email:** [christiangri@live.it]  
+**LinkedIn:** [(https://www.linkedin.com/in/christian-grieco-340bba194/)]
+
+### 10. Governing Law
+
+This License shall be governed by and construed in accordance with the laws of Italy, without regard to its conflict of law provisions.
+
+---
+
+## CONTACT
+
+For questions, bug reports, or licensing inquiries:
+
+- **Email:** christiangri@live.it
+- **LinkedIn:** [(https://www.linkedin.com/in/christian-grieco-340bba194/)]
+
+
+---
+
+**By using this Software, you acknowledge that you have read this License, understand it, and agree to be bound by its terms and conditions.**
+
+Last Updated: January 4, 2026

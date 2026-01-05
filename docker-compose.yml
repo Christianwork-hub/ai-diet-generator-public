@@ -1,0 +1,66 @@
+# docker-compose.yml
+# AI Diet Generator v3.0 - Public Distribution
+
+version: '3.8'
+
+services:
+  ai-diet-generator:
+    image: chriwork/ai-diet-generator:latest
+    container_name: ai-diet-generator
+    ports:
+      - "5000:5000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      # Ollama connection (requires Ollama running on host)
+      - OLLAMA_HOST=http://host.docker.internal:11434
+      
+      # Flask configuration
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+      
+      # Application settings
+      - MAX_DIET_DAYS=14
+      - CALORIC_DEVIATION_THRESHOLD=8
+    
+    restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    networks:
+      - diet-network
+
+networks:
+  diet-network:
+    driver: bridge
+
+# Usage Instructions:
+# 
+# 1. Prerequisites:
+#    - Docker installed (https://docs.docker.com/get-docker/)
+#    - Ollama installed and running (https://ollama.ai/)
+#    - Mistral 7B model pulled: ollama pull mistral:7b
+#
+# 2. Start Ollama (in separate terminal):
+#    ollama serve
+#
+# 3. Start AI Diet Generator:
+#    docker-compose up -d
+#
+# 4. Access application:
+#    Open browser: http://localhost:5000
+#
+# 5. Stop application:
+#    docker-compose down
+#
+# 6. View logs:
+#    docker-compose logs -f
+#
+# 7. Update to latest version:
+#    docker-compose pull
+#    docker-compose up -d
