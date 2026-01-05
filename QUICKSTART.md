@@ -104,6 +104,12 @@ docker run -d \
   -e OLLAMA_HOST=http://host.docker.internal:11434 \
   chriwork/ai-diet-generator:latest
 ```
+### Option C: Docker pull 
+
+from https://hub.docker.com/r/chriwork/ai-diet-generator
+docker pull chriwork/ai-diet-generator
+docker run --rm -it chriwork/ai-diet-generator
+
 
 ---
 
@@ -353,3 +359,4 @@ For advanced topics, see:
 
 
 **Last updated:** January 5, 2026
+
