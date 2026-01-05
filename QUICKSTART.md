@@ -81,7 +81,7 @@ systemctl status ollama
 
 ```bash
 # 1. Download docker-compose.yml
-curl -O https://raw.githubusercontent.com/yourusername/ai-diet-generator-public/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/Christianwork-hub/ai-diet-generator-public/main/docker-compose.yml
 
 # 2. Start application
 docker-compose up -d
@@ -350,5 +350,6 @@ For advanced topics, see:
 - [FAQ.md](FAQ.md) - Common questions
 
 ---
+
 
 **Last updated:** January 5, 2026
